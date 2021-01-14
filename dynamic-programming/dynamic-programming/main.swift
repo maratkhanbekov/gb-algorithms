@@ -160,7 +160,7 @@ var board = createBoard(5, 5)
 board = makeMove(board, n: board.count/2, m: board[0].count/2)
 
 // Search for all solutions
-//searchForAllSolutions(board)
+searchForAllSolutions(board)
 
 // Super fast solution
-fastSearchForSolution(board)
+//fastSearchForSolution(board)
